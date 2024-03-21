@@ -11,7 +11,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: rgb(248, 244, 244);
+    background: linear-gradient(to bottom, rgb(198, 95, 95),white);
     padding: 20px;
 }
 
@@ -92,8 +92,7 @@ a:hover {
 
 .topnav{
     background-color: #c5bdbd;
-    overflow: hidden;
-    
+    overflow: hidden;    
 }
 
 .topnav a{
@@ -110,4 +109,7 @@ a:hover {
 .topnav a.active{
     background-color: rgb(128, 123, 123);
 }
-kofi test
+.img_dining{
+    width: 10%;
+    height: 10%;
+}
