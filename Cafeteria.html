@@ -12,17 +12,76 @@
             <h1>Cafeteria</h1> 
         </header>
     <div class="topnav">
-        
         <a href="Home.html" >
             <img src="dining.jpg" alt="test" width="" height="" class = "img_dining">
         </a>
         <a href="Cafeteria.html" class="active" >Cafeteria</a>
         <a href="Bio.html">Biography</a>
     </div>
+
+<style>
+    table{
+        width: 30%;
+    }
+    table,th,td{
+        border: 2px, solid;
+        background-color: black;
+    }
+    th{
+        background-color: whitesmoke;
+        text-align: center;
+    }
+    td{
+        background-color: rgb(188, 188, 188);
+        text-align: center;
+    }
+    td:hover{
+        background-color: rgb(142, 231, 255);
+    }
+
+</style>
+<!--
+    keep hover if u find a use for onclick with it
+-->
     <section>
-        <h2>Meals</h2>
-        <p>placehoder</p>
+        <h1>Schedule</h1>
+        <table>
+            <tr>
+                <th>Days</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wen</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat/Sun</th>
+            </tr>
+            <tr>
+                <th>Meals</th>
+                <td>Hamburgers</td>
+                <td>Tacos</td>
+                <td>Potato and Beef</td>
+                <td>Pasta</td>
+                <td>Hotdogs</td>
+                <td>Chicken and Rice</td>
+            </tr>
+            <th>Calories</th>
+            <td>520</td>
+            <td>221</td>
+            <td>514</td>
+            <td>776</td>
+            <td>302</td>
+            <td>448</td>
+        </table>
+        <p>Gluten Free Options</p>
+        <p>*Salad bar and Chicken Tenders/Fries are open all week.</p>
     </section>
+    <h2>Online Orders</h2>
+    <h5>Online orders still follow the weekly schedule</h5>
+<form method="post">
+    <label>Meal:</label>
+    <input type="hidden" required>
+    <a href="#" onclick="alert('thank you for placing your order please wait for the page to load!');">ORDER</a>
+</form>
     <footer>
         <p>&copy; 2024 Cougar Hall All rights reserved.</p>
         <p>Contact us at <a href="mailto:info@mCougarhall.com">info@Cougarhall.com</a>.</p>
