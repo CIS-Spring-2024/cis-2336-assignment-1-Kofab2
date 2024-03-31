@@ -26,3 +26,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 } 
+
+document.querySelector('button[type="submit"]').addEventListener('click', function(e) {
+    e.preventDefault();  // Prevent the form from submitting
+    alert('Thank you for joining our news letter');
+});

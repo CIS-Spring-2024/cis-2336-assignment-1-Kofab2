@@ -11,17 +11,19 @@
         <header>
             <h1>Cafeteria</h1> 
         </header>
-    <div class="topnav">
-        <a href="Home.html" >
-            <img src="dining.jpg" alt="test" width="" height="" class = "img_dining">
-        </a>
-        <a href="Cafeteria.html" class="active" >Cafeteria</a>
-        <a href="Bio.html">Biography</a>
-    </div>
-
+        <div class="topnav">
+            <nav>
+                <img src="dining.jpg" alt="test" width=".1" height=".1" class = "img_dining">
+                <a href="Home.html"   >
+                    <!--<img src="dining.jpg" alt="test" width="" height="" class = "img_dining">-->Home
+                </a>
+                <a href="#Cafeteria.html" class="active">Cafeteria</a>
+                <a href="Bio.html">Biography</a>
+            </nav>
+        </div>
 <style>
     table{
-        width: 30%;
+        width: 50%;
     }
     table,th,td{
         border: 2px, solid;
@@ -36,7 +38,7 @@
         text-align: center;
     }
     td:hover{
-        background-color: rgb(142, 231, 255);
+        background-color: rgb(255, 142, 142);
     }
 
 </style>
@@ -57,12 +59,12 @@
             </tr>
             <tr>
                 <th>Meals</th>
-                <td>Hamburgers</td>
-                <td>Tacos</td>
-                <td>Potato and Beef</td>
-                <td>Pasta</td>
-                <td>Hotdogs</td>
-                <td>Chicken and Rice</td>
+                <td width = '30px' height = '10%'>Hamburgers</td>
+                <td width = '100px'>Tacos</td>
+                <td width = '20%'>Potato and Beef</td>
+                <td width = '20%'>Pasta</td>
+                <td width = '20%'>Hotdogs</td>
+                <td width = '100px'>Chicken and Rice</td>
             </tr>
             <th>Calories</th>
             <td>520</td>
@@ -80,7 +82,7 @@
 <form method="post">
     <label>Meal:</label>
     <input type="hidden" required>
-    <a href="#" onclick="alert('thank you for placing your order please wait for the page to load!');">ORDER</a>
+    <a href="#" onclick="alert('Thank you for placing your order please wait for the page to load!');">ORDER</a>
 </form>
     <footer>
         <p>&copy; 2024 Cougar Hall All rights reserved.</p>
